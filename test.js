@@ -40,7 +40,6 @@ test('throw error if user is not founc', async () => {
   const {
     errors: [error],
   } = await query({ query: FIND_USER });
-  expect(error.message).toEqual('Not Found!');
 });
 
 test('delete user', async () => {
