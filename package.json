@@ -1,0 +1,17 @@
+{
+  "name": "apollo-server-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-server": "^2.16.0",
+    "apollo-server-testing": "^2.16.0",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
